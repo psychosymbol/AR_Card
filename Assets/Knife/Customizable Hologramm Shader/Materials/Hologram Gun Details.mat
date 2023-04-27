@@ -8,11 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Hologram Gun Details
-  m_Shader: {fileID: 4800000, guid: 1408e03254b557644b24f0e24b5781de, type: 3}
+  m_Shader: {fileID: 4800000, guid: e99f8b80b1693284587af0c131f61f3d, type: 3}
   m_ValidKeywords:
   - _ALPHAMASKFEATURE_ON
   - _DISSOLVEFEATURE_ON
   - _FRESNELFEATURE_ON
+  - _GRAINFEATURE_ON
+  - _LINE2FEATURE_ON
   - _POSITIONFEATURE_Y
   - _POSITIONSPACEFEATURE_WORLD
   - _SOFTINTERSECTION1FEATURE_OFF
@@ -117,8 +119,8 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _GrainAffect: 0.48
-    - _GrainFeature: 0
+    - _GrainAffect: 0.05
+    - _GrainFeature: 1
     - _Line1Alpha: 0.15
     - _Line1Feature: 0
     - _Line1Frequency: 50
@@ -126,11 +128,11 @@ Material:
     - _Line1InvertedThickness: 0
     - _Line1Speed: -3.57
     - _Line2Alpha: 0.1
-    - _Line2Feature: 0
-    - _Line2Frequency: 1
-    - _Line2Hardness: 2
-    - _Line2InvertedThickness: 0.255
-    - _Line2Speed: -1
+    - _Line2Feature: 1
+    - _Line2Frequency: -3.48
+    - _Line2Hardness: 0.5
+    - _Line2InvertedThickness: 0.3
+    - _Line2Speed: -0.5
     - _LineBothFeature: 0
     - _LineGlitchFeature: 0
     - _LineGlitchFrequency: 0.2
@@ -180,7 +182,7 @@ Material:
     - _GrainScale: {r: 50, g: 50, b: 50, a: 0}
     - _GrainValues: {r: -1, g: 1, b: 0, a: 0}
     - _LineGlitchOffset: {r: 0.15, g: 0, b: 0, a: 0}
-    - _MainColor: {r: 3.9533494, g: 0.98984647, b: 0.6416429, a: 0.05098039}
+    - _MainColor: {r: 0.107467055, g: 0.44271323, b: 0.6509434, a: 0.8627451}
     - _MaskCenter: {r: 0, g: 0, b: 0, a: 0}
     - _MaskSize: {r: 0, g: 0, b: 0, a: 0}
     - _RandomGlitchOffset: {r: -0.5, g: 0, b: 0, a: 0}
